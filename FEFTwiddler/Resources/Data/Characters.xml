@@ -4742,8 +4742,19 @@
     <text lang="German" displayName="DisplayName" />
     <baseStats hp="0" str="0" mag="0" skl="0" spd="0" lck="0" def="0" res="0" />
     <modifier hp="0" str="0" mag="0" skl="0" spd="0" lck="0" def="0" res="0" />
+	<growthRates hp="0" str="0" mag="0" skl="0" spd="0" lck="0" def="0" res="0" />
     <flags canUseStones="false" isCorrin="false" isChild="false" isPrisoner="false" isFemale="false" isManakete="false" isBeast="false" canUseDragonVein="false" />
-    <hairColor r="255" g="255" b="255" a="255" />
+    <supportPool>
+	  EXAMPLE OF FAST ROMANTIC
+      <support characterid="25" C="3" B="7" A="12" S="18" />
+	  EXAMPLE OF ROMANTIC
+      <support characterid="13" C="4" B="9" A="14" S="20" />
+      EXAMPLE OF FAST PLATONIC
+      <support characterid="15" C="3" B="7" A="12" S="-1" />
+	  EXAMPLE OF PLATONIC
+      <support characterid="6" C="4" B="9" A="14" S="-1" />
+    </supportPool>
+	<hairColor r="255" g="255" b="255" a="255" />
   </character>
   -->
 </root>

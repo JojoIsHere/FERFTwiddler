@@ -59,7 +59,6 @@
             this.HairColorBox.Size = new System.Drawing.Size(46, 46);
             this.HairColorBox.TabIndex = 77;
             this.HairColorBox.TabStop = false;
-            this.HairColorBox.Click += new System.EventHandler(this.PickHairColor);
             // 
             // label1
             // 

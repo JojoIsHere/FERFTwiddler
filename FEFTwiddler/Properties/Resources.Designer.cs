@@ -19,7 +19,7 @@ namespace FEFTwiddler.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -72,7 +72,7 @@ namespace FEFTwiddler.Properties {
         ///    &lt;text lang=&quot;Italian&quot; displayName=&quot;(Nessuna)&quot; /&gt;
         ///  &lt;/accessory&gt;
         ///  &lt;accessory id=&quot;1&quot; name=&quot;MarthsTiara&quot; type=&quot;Headwear&quot;&gt;
-        ///    &lt;text lang=&quot;English&quot; displayName=&quot;Mart [rest of string was truncated]&quot;;.
+        ///    &lt;text lang=&quot;English&quot; displayName=&quot;Marth&apos;s Tiara&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Accessories {
             get {
@@ -90,7 +90,7 @@ namespace FEFTwiddler.Properties {
         ///    &lt;text lang=&quot;French&quot; displayName=&quot;Armurerie Hoshido 1&quot; /&gt;
         ///    &lt;text lang=&quot;German&quot; displayName=&quot;Hoshid. Arsenal 1&quot; /&gt;
         ///    &lt;text lang=&quot;Italian&quot; displayName=&quot;Armeria della luce 1&quot; /&gt;
-        ///    &lt;properties size=&quot;3&quot; rank=&quot;1&quot; isStatue=&quot;false&quot; isGatheringSpot [rest of string was truncated]&quot;;.
+        ///    &lt;properties size=&quot;3&quot; rank=&quot;1&quot; isStatue=&quot;false&quot; isGatheringSpot=&quot;false&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Buildings {
             get {
@@ -99,22 +99,21 @@ namespace FEFTwiddler.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
-        ///&lt;root&gt;
+        ///   Looks up a localized string similar to &lt;root&gt;
         ///	&lt;chapter id=&quot;0&quot; name=&quot;None&quot; type=&quot;Story&quot;&gt;
-        ///		&lt;text lang=&quot;English&quot; displayName=&quot;None&quot; /&gt;
+        ///		&lt;text lang=&quot;English&quot; displayName1=&quot;None&quot; displayName2=&quot;&quot; /&gt;
         ///	&lt;/chapter&gt;
         ///	&lt;chapter id=&quot;1&quot; name=&quot;Confirmation&quot; type=&quot;Story&quot;&gt;
-        ///		&lt;text lang=&quot;English&quot; displayName=&quot;???&quot; /&gt;
+        ///		&lt;text lang=&quot;English&quot; displayName1=&quot;Confirmation&quot; displayName2=&quot;&quot; /&gt;
         ///	&lt;/chapter&gt;
         ///	&lt;chapter id=&quot;2&quot; name=&quot;Prologue&quot; type=&quot;Story&quot;&gt;
-        ///		&lt;text lang=&quot;English&quot; displayName=&quot;Prologue: Ties that Bind&quot; /&gt;
+        ///		&lt;text lang=&quot;English&quot; displayName1=&quot;Prologue&quot; displayName2=&quot;Ties that Bind&quot; /&gt;
         ///		&lt;unlocks&gt;
-        ///			&lt;chapter id=&quot;3&quot;/&gt;
+        ///			&lt;chapter id=&quot;3&quot; /&gt;
         ///		&lt;/unlocks&gt;
         ///	&lt;/chapter&gt;
         ///	&lt;chapter id=&quot;3&quot; name=&quot;Chapter1&quot; type=&quot;Story&quot;&gt;
-        ///		&lt;text lang=&quot;English&quot; dis [rest of string was truncated]&quot;;.
+        ///		&lt;text lang=&quot;English&quot; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Chapters {
             get {
@@ -133,7 +132,7 @@ namespace FEFTwiddler.Properties {
         ///    &lt;text lang=&quot;German&quot; displayName=&quot;(Keine)&quot; /&gt;
         ///    &lt;text lang=&quot;Italian&quot; displayName=&quot;(Nessuna)&quot; /&gt;
         ///    &lt;baseStats hp=&quot;0&quot; str=&quot;0&quot; mag=&quot;0&quot; skl=&quot;0&quot; spd=&quot;0&quot; lck=&quot;0&quot; def=&quot;0&quot; res=&quot;0&quot; /&gt;
-        ///    &lt;modifier hp=&quot;0&quot; str=&quot;0&quot; mag=&quot;0&quot; skl=&quot;0&quot; s [rest of string was truncated]&quot;;.
+        ///    &lt;modifier hp=&quot;0&quot; str=&quot;0&quot; mag=&quot;0&quot; skl=&quot;0&quot; spd=&quot;0&quot; lck [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Characters {
             get {
@@ -152,7 +151,7 @@ namespace FEFTwiddler.Properties {
         ///    &lt;text lang=&quot;German&quot; displayName=&quot;(Keine)&quot; /&gt;
         ///    &lt;text lang=&quot;Italian&quot; displayName=&quot;(Nessuna)&quot; /&gt;
         ///    &lt;baseStats hp=&quot;1&quot; str=&quot;0&quot; mag=&quot;0&quot; skl=&quot;0&quot; spd=&quot;0&quot; lck=&quot;0&quot; def=&quot;0&quot; res=&quot;0&quot; /&gt;
-        ///    &lt;maxStats hp=&quot;40&quot; str=&quot;15&quot; mag=&quot;15&quot; skl=&quot;15&quot; s [rest of string was truncated]&quot;;.
+        ///    &lt;maxStats hp=&quot;40&quot; str=&quot;15&quot; mag=&quot;15&quot; skl=&quot;15&quot; spd=&quot;15&quot; lc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Classes {
             get {
@@ -172,7 +171,7 @@ namespace FEFTwiddler.Properties {
         ///    &lt;text lang=&quot;Italian&quot; displayName=&quot;(Senza armi)&quot; /&gt;
         ///    &lt;categories npcOnly=&quot;false&quot; personal=&quot;false&quot; /&gt;
         ///  &lt;/item&gt;
-        ///  &lt;item id= [rest of string was truncated]&quot;;.
+        ///  &lt;item id=&quot;1&quot; name=&quot;B [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Items {
             get {
@@ -194,7 +193,7 @@ namespace FEFTwiddler.Properties {
         ///  &lt;prisoner id=&quot;1&quot;&gt;
         ///    &lt;text lang=&quot;English&quot; displayName=&quot;Akihiro&quot; /&gt;
         ///    &lt;text lang=&quot;Japanese&quot; displayName=&quot;シモツキ&quot; /&gt;
-        ///    &lt; [rest of string was truncated]&quot;;.
+        ///    &lt;text lang=&quot;Sp [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Prisoners {
             get {
@@ -213,7 +212,7 @@ namespace FEFTwiddler.Properties {
         ///    &lt;text lang=&quot;German&quot; displayName=&quot;(Keine Fähigkeit)&quot; /&gt;
         ///    &lt;text lang=&quot;Italian&quot; displayName=&quot;(Nessuna abilità)&quot; /&gt;
         ///    &lt;learnedSkillInfo byteOffset=&quot;0&quot; bitMask=&quot;1&quot; /&gt;
-        ///    &lt;categories normalCl [rest of string was truncated]&quot;;.
+        ///    &lt;categories normalClass=&quot;true&quot; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Skills {
             get {
@@ -232,7 +231,7 @@ namespace FEFTwiddler.Properties {
         ///    &lt;text lang=&quot;German&quot; displayName=&quot;(Keine)&quot; /&gt;
         ///    &lt;text lang=&quot;Italian&quot; displayName=&quot;(Nessuna)&quot; /&gt;
         ///    &lt;baseBoonModifiers hp=&quot;0&quot; str=&quot;0&quot; mag=&quot;0&quot; skl=&quot;0&quot; spd=&quot;0&quot; lck=&quot;0&quot; def=&quot;0&quot; res=&quot;0&quot; /&gt;
-        ///    &lt;maxBoonModifiers hp=&quot;0&quot; str=&quot;0&quot; mag=&quot;0 [rest of string was truncated]&quot;;.
+        ///    &lt;maxBoonModifiers hp=&quot;0&quot; str=&quot;0&quot; mag=&quot;0&quot; skl=&quot;0&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Data_Stats {
             get {
