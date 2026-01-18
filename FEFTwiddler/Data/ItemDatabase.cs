@@ -11,6 +11,7 @@ namespace FEFTwiddler.Data
         public ItemDatabase(Enums.Language language) : base(language)
         {
             LoadData(Properties.Resources.Data_Items);
+            LoadAddonData("Items");
         }
 
         public Item GetByID(Enums.Item itemId)
