@@ -47,7 +47,12 @@ namespace FEFTwiddler.Data
             foreach (var e in elements)
             {
                 var skill = FromElement(e);
-                if (!skill.IsPersonal && !skill.IsUnlearnable) rows.Add(skill);
+                #if DEBUG
+                  if (!skill.IsUnlearnable) rows.Add(skill);
+                  continue;
+                #endif
+                  // This may cause a warning as unreachable, that is intentional
+                  if (!skill.IsPersonal && !skill.IsUnlearnable) rows.Add(skill);
             }
             return rows;
         }
